@@ -1,0 +1,10 @@
+model is the object which is having the data , which we get after processing the request of the client
+client can be a web browser, other server or mobile app anything, which is sending the request to our server
+basically JSP is a view technology which can help the data to look good to client by adding html /css to it
+
+servlet are the controller, model is having the data , JSP is for viewing the data
+servlet ask database to give data , which stores in model object(Plain Old Java Object)
+which is then shared to JSP , and JSP send whole view to client containing data + html/css
+
+JSP is also running in tomcat which is a servlet container which means only servlet can run there.
+what happen is JSP is getting converted to servlet in backend , which make it runnable in tomcat
